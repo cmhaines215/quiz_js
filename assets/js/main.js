@@ -1,7 +1,7 @@
 // this is the starting point for this commentary,
 // please add more steps
 // there may be more steps and corrections to be made in future
-console.log("hey hey")
+
 // need a collection of objects that hold the questions
 // need to keep a count of the question that is displayed
 // need to keep score

@@ -1,14 +1,14 @@
 *{
-    background-color: rgb(16, 140, 218);
-    color: rgb(110, 204, 241);
+    box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
+    
 }
 
-h1{
-    text-align: center;
-}
 
-#quiz{
-    border-width: 3px;
-    border-color: maroon;
+
+main{
+
+}
+#container{
+
 }
