@@ -1,14 +1,23 @@
 *{
-    box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
-    
+    background-color: lightblue;
 }
 
-
-
-main{
-
+nav{
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px 45px;
+    justify-content: space-between;
 }
-#container{
+
+#highscores{
+    background-color: skyblue;
+    color:steelblue;
+    height: fit-content;
+    padding: 10px;
+}
+#timer{
+    color: steelblue;
+    font-size: 30px;
+    margin-top: -29px;
 
 }
