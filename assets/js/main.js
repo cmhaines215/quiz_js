@@ -62,7 +62,7 @@ function startTimer(){
 function addQuestion(){
 
   var currentQ = 0;
-  var quizQuestion = questionsList[currentQ];
+  var quizQuestion = questionsList[0];
 
   contQues.textContent = quizQuestion.question;
 
@@ -87,8 +87,8 @@ function addQuestion(){
   else{
     button.dataset.value = "correct";
   }
-  // var item = document.createElement("li");
-  // var btn = document.createElement("button");
+  var item = document.createElement("li");
+  var btn = document.createElement("button");
     //append
     contAns.appendChild(item);
     item.appendChild(button);
