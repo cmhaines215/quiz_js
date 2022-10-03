@@ -50,3 +50,6 @@ h2{
     color:steelblue;
     font-size: 19px;
 }
+#container-answers{
+    list-style-type: none;
+}
