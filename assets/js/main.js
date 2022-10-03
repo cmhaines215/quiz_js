@@ -78,6 +78,7 @@ function addQuestion(){
    var button = document.createElement('button');
   //modify
   button.setAttribute("class","option-button");
+  button.textContent = button.textContent = quizQuestion.answers;
   button.dataset.index = currentQ;
   button.dataset.next = currentQ + 1;
   if(quizQuestion.answers[i] === quizQuestion.incorrectanswers){
@@ -86,9 +87,11 @@ function addQuestion(){
   else{
     button.dataset.value = "correct";
   }
+  // var item = document.createElement("li");
+  // var btn = document.createElement("button");
     //append
     contAns.appendChild(item);
-    item.appendChild(btn);
+    item.appendChild(button);
  }
  
 
