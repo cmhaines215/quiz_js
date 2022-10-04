@@ -8,27 +8,27 @@ var mainCont =document.querySelector("#quiz-container");
 var questionsList = [{
   question:"question1?",
   answers:["answer1","answer2","answer3","answer4"],
-  incorrectanswers:["answer1","answer3","answer4"],
+  incorrect:["answer1","answer3","answer4"],
 },
 {
   question:"question2?",
   answers:["answer1","answer2","answer3","answer4"],
-  incorrectanswers:["answer1","answer2","answer3"],
+  incorrect:["answer1","answer2","answer3"],
 },
 {
   question:"question3?",
   answers:["answer1","answer2","answer3","answer4"],
-  incorrectanswers:["answer2","answer3","answer4"],
+  incorrect:["answer2","answer3","answer4"],
 },
 {
   question:"question4?",
   answers:["answer1","answer2","answer3","answer4"],
-  incorrectanswers:["answer1","answer2","answer3"],
+  incorrect:["answer1","answer2","answer3"],
 },
 {
   question:"question5?",
   answers:["answer1","answer2","answer3","answer4"],
-  incorrectanswers:["answer1","answer2","answer4"],
+  incorrect:["answer1","answer2","answer4"],
 }];
 
 
@@ -81,7 +81,7 @@ function addQuestion(){
   button.textContent = button.textContent = quizQuestion.answers;
   button.dataset.index = currentQ;
   button.dataset.next = currentQ + 1;
-  if(quizQuestion.answers[i] === quizQuestion.incorrectanswers){
+  if(quizQuestion.answers[i] === quizQuestion.incorrect){
     button.dataset.value = "incorrect";
   }
   else{
