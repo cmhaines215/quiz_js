@@ -2,33 +2,33 @@ var ans = [];
 var contAns =document.querySelector("#container-answers");
 var contQues =document.querySelector("#container-question");
 var mainCont =document.querySelector("#quiz-container");
-var timer =document.querySelector("#timer");
+
 
 // need a collection of objects that hold the questions
 var questionsList = [{
   question:"question1?",
   answers:["answer1","answer2","answer3","answer4"],
-  correctAnswer:["answer2"],
+  correctAnswer:["answer1","answer3","answer4"],
 },
 {
   question:"question2?",
   answers:["answer1","answer2","answer3","answer4"],
-  correctAnswer:["answer4"],
+  incorrectanswers:["answer1","answer2","answer3"],
 },
 {
   question:"question3?",
   answers:["answer1","answer2","answer3","answer4"],
-  correctAnswer:["answer1"],
+  incorrectanswers:["answer2","answer3","answer4"],
 },
 {
   question:"question4?",
   answers:["answer1","answer2","answer3","answer4"],
-  correctAnswer:["answer4"],
+  incorrectanswers:["answer1","answer2","answer3"],
 },
 {
   question:"question5?",
   answers:["answer1","answer2","answer3","answer4"],
-  correctAnswer:["answer3"],
+  incorrectanswers:["answer1","answer2","answer4"],
 }];
 
 
@@ -95,7 +95,12 @@ function addQuestion(){
  }
  
 
+  // modify the text/attributes
+  // modify one of the attributes to say right or wrong
 
+  // append all elements to something on the page
+
+  // for all the buttons, add event listener
 
 }
 
@@ -110,6 +115,5 @@ contAns.addEventListener("click", function(event){
 
   if(child.matches("#start-button")){
     addQuestion();
-    startTimer()
   }
 })
