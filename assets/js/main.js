@@ -8,27 +8,27 @@ var mainCont =document.querySelector("#quiz-container");
 var questionsList = [{
   question:"question1?",
   answers:["answer1","answer2","answer3","answer4"],
-  correctAnswer:["answer1","answer3","answer4"],
+  correctAnswer:["answer2"],
 },
 {
   question:"question2?",
   answers:["answer1","answer2","answer3","answer4"],
-  incorrectanswers:["answer1","answer2","answer3"],
+  correctAnswer:["answer4"],
 },
 {
   question:"question3?",
   answers:["answer1","answer2","answer3","answer4"],
-  incorrectanswers:["answer2","answer3","answer4"],
+  correctAnswer:["answer3"],
 },
 {
   question:"question4?",
   answers:["answer1","answer2","answer3","answer4"],
-  incorrectanswers:["answer1","answer2","answer3"],
+  correctAnswer:["answer1"],
 },
 {
   question:"question5?",
   answers:["answer1","answer2","answer3","answer4"],
-  incorrectanswers:["answer1","answer2","answer4"],
+  correctAnswer:["answer2"],
 }];
 
 
