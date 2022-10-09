@@ -34,8 +34,8 @@ var questions =[
 
 var currentQ = 0;
 var ans = 0;
-var containerAnswers = document.querySelector("#container-answers");
-var containerQuestion = document.querySelector("container-question");
+var containerAnswers = document.querySelector(".container-answers");
+var containerQuestion = document.querySelector("#container-question");
 
 function startScreen(){
   var item = document.createElement("li");

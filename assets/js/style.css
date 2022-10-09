@@ -51,7 +51,7 @@ h2{
     color:steelblue;
     font-size: 19px;
 }
-#container-answers{
+.container-answers{
     list-style-type: none;
     margin-right: 30px;
 }
